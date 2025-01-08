@@ -10,8 +10,10 @@ public class Triangles {
 
         } else if (a == b || a==c || b==c) {
             return "Треугольник a=..., b=..., c=... - равнобедренный треугольник";
+        } else if (a * a + b*b == c*c || b*b + c*c == a*a || a*a + c*c == b*b) {
+            return "Треугольник a=..., b=..., c=... - прямогульный треугольник";
+            
         }
-
     }
    }
 
